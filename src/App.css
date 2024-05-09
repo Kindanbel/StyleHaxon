@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Montserrat:wght@200;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   font-family: 'Clash Display', sans-serif;
+}
+
+.product-gallery::-webkit-scrollbar{
+   display: none;
+}
+
+.image-gallery::-webkit-scrollbar{
+   display: none;
+}
+
+.button-links::-webkit-scrollbar{
+   display: none;
+}
+
+.galleries{
+   background-color: rgba(0,0,0,0.4);
+}
+
+
+
+
+
+/*Media Queries*/
+
+
+/*Media Queries: Mobile view*/
+
+@media(max-width: 750px){
+   .hero-image{
+      bottom: -500px;
+   }
+}
+
+@media(max-width: 550px){
+   .hero-image{
+      bottom: -500px;
+   }
+}
+
+@media(max-width: 440px){
+   .hero-image{
+      bottom: -700px;
+   }
+}
+
+@media(max-width: 391px){
+   .hero-image{
+      bottom: -620px;
+   }
+}
+
+@media(max-width: 376px){
+   .hero-image{
+      bottom: -450px;
+   }
+}
+
+@media(max-width: 361px){
+   .hero-image{
+      bottom: -550px;
+   }
+}
