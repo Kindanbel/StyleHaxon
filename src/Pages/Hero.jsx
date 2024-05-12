@@ -15,8 +15,8 @@ function Hero(){
                         <p className="text-white pl-4 text-[17px]">
                             Discover Your Signature Style at Style Haxon
                         </p>
-                        <div className="hero-image absolute md:right-[0] md:bottom-[-370px] lg:right-[400px] lg:bottom-[-250px]">
-                            <img src="/images/hood 12.svg" alt="" className="w-[600px] h-[600px] "/>
+                        <div className="hero-image absolute md:right-[0] md:bottom-[-400px] lg:right-[-100px] lg:bottom-[-250px] xl:right-[400px] xl:bottom-[-1100px] 2xl:bottom-[-250px]">
+                            <img src="/images/hood 12.svg" alt="" className="w-[600px] "/>
                         </div>
                     </div>
 

@@ -14,13 +14,13 @@ function Collection() {
                 </div>
                 <div 
                 className=
-                "pl-[10%] md:pl-0 image-gallery pt-5 md:grid flex gap-5 md:grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 overflow-scroll ">
+                "pl-[10%] pr-[40px] md:pr-0 md:pl-0 image-gallery pt-5 md:grid flex gap-5 md:grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 overflow-scroll ">
                     {/*Image galleries */}
 
                     <div className="galleries
                      md:w-[100%] 
                      w-[fit]
-                     h-[500px]
+                     h-[400px]
                      md:h-[520px]
                      flex-shrink-0
                       text-white
@@ -39,7 +39,7 @@ function Collection() {
                     </div>
 
                     <div className="galleries
-                     w-[fit] sm:h-[500px] lg:h-[250px] flex-shrink-0
+                     w-[fit] h-[400px] md:h-[500px] lg:h-[250px] flex-shrink-0
                       text-white
                       bg-[url('/images/hoodie6.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay
                        flex flex-col justify-end p-5">
@@ -53,7 +53,7 @@ function Collection() {
                     </div>
 
                     <div className="galleries 
-                     w-[fit] sm:h-[500px] lg:h-[250px] flex-shrink-0
+                     w-[fit] h-[400px] md:h-[500px]  lg:h-[250px] flex-shrink-0
                      text-white
                      bg-[url('/images/children2.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay
                       flex flex-col justify-end p-5">
@@ -67,7 +67,7 @@ function Collection() {
                     </div>
 
                     <div className="galleries
-                     w-[fit] sm:h-[500px] lg:h-[250px] flex-shrink-0
+                     w-[fit] h-[400px] md:h-[500px]  lg:h-[250px] flex-shrink-0
                       text-white
                       bg-[url('/images/activewear.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay
                       flex flex-col justify-end p-5">
@@ -81,7 +81,7 @@ function Collection() {
                     </div>
 
                     <div className="galleries 
-                    w-[fit] sm:h-[500px] lg:h-[250px] flex-shrink-0
+                    w-[fit] h-[400px] md:h-[500px]  lg:h-[250px] flex-shrink-0
                      text-white
                      bg-[url('/images/caps2.jpg')] bg-no-repeat bg-center bg-cover bg-blend-overlay
                       flex flex-col justify-end p-5">

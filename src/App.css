@@ -33,11 +33,13 @@ body{
 
 /*Media Queries: Mobile view*/
 
+
 @media(max-width: 750px){
    .hero-image{
       bottom: -500px;
    }
 }
+
 
 @media(max-width: 550px){
    .hero-image{
@@ -51,6 +53,12 @@ body{
    }
 }
 
+@media(max-width: 420px){
+   .hero-image{
+      bottom: -420px;
+   }
+}
+
 @media(max-width: 391px){
    .hero-image{
       bottom: -620px;
@@ -59,7 +67,7 @@ body{
 
 @media(max-width: 376px){
    .hero-image{
-      bottom: -450px;
+      bottom: -470px;
    }
 }
 
@@ -68,3 +76,4 @@ body{
       bottom: -550px;
    }
 }
+
